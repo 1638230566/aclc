@@ -1,0 +1,201 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adofai Cursed Levels</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: 'MaokenZhuyuanTi';
+            font-weight: 'normal';
+            background: #050a33;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="../" target="_blank" class="title-herf">
+            Adofai Cursed Levels Download</a>
+        <div class="search-place">
+            <form id="searchForm" action="/" method="GET">
+                <input name="q" type="text" autocomplete="off" placeholder="搜索关卡 Search the Level" id="search" value="">
+                <button type="submit" id="search-button">搜索</button>
+            </form>
+        </div>
+    </nav>
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var searchInput = document.getElementById('search');
+            if (searchInput.value.trim() === '') {
+                searchInput.value = "";
+            }
+            if (searchInput.value === '') {
+                $(".setofmod").slideDown(500);
+            } else {
+                $(".setofmod").each(function () {
+                    if ($(this).find(".author").text() != searchInput.value) {
+                        $(this).slideUp(500);
+                    } else {
+                        $(this).slideDown(500);
+                    }
+                })
+            }
+        });
+        document.addEventListener('DOMContentLoaded', () => {
+            const qqKookContainer = document.getElementById('qq-kook-container');
+            if (36 < 2) {
+                qqKookContainer.style.position = 'fixed';
+                qqKookContainer.style.width = '100%';
+                qqKookContainer.style.bottom = 0;
+            } else {
+                qqKookContainer.style.position = 'relative';
+            }
+        });
+    </script>
+
+    <div style="padding-bottom: 3px;">
+
+        <div class="setofmod">
+            <h1 class="author">摆了 BaiLe</h1>
+            <ul class="main-mod-button">
+
+                <li class="mod-button">
+                    <div>
+                        <p class="main-title">
+                            1-X 冰与火之舞但是180°砖块都是发夹弯 A Dance of Fire and Ice but the 180° tiles turn into the u-turns
+                        </p>
+                        <div class="button1">
+                            <a target="_blank" href="file/1-x.zip">下载</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-mod-button">
+
+                <li class="mod-button">
+                    <div>
+                        <p class="main-title">
+                            2-X 
+                        </p>
+                        <div class="button1">
+                            <a target="_blank" href="file/2-x.zip">下载</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-mod-button">
+
+                <li class="mod-button">
+                    <div>
+                        <p class="main-title">
+                            3-X
+                        </p>
+                        <div class="button1">
+                            <a target="_blank" href="file/3-x.zip">下载</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-mod-button">
+
+                <li class="mod-button">
+                    <div>
+                        <p class="main-title">
+                            4-X
+                        </p>
+                        <div class="button1">
+                            <a target="_blank" href="file/4-x.zip">下载</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-mod-button">
+
+                <li class="mod-button">
+                    <div>
+                        <p class="main-title">
+                            5-X
+                        </p>
+                        <div class="button1">
+                            <a target="_blank" href="file/5-x.zip">下载</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-mod-button"></ul>
+
+            <li class="mod-button">
+                <div>
+                    <p class="main-title">
+                        6-X
+                    </p>
+                    <div class="button1">
+                        <a target="_blank" href="file/6-x.zip">下载</a>
+                    </div>
+                </div>
+            </li>
+            </ul>
+
+            <ul class="main-mod-button"></ul>
+
+            <li class="mod-button">
+                <div>
+                    <p class="main-title">
+                        PA-X
+                    </p>
+                    <div class="button1">
+                        <a target="_blank" href="file/pa-x.zip">下载</a>
+                    </div>
+                </div>
+            </li>
+            </ul>
+
+            <ul class="main-mod-button"></ul>
+
+            <li class="mod-button">
+                <div>
+                    <p class="main-title">
+                        XF-X
+                    </p>
+                    <div class="button1">
+                        <a target="_blank" href="file/XF-x.zip">下载</a>
+                    </div>
+                </div>
+            </li>
+            </ul>
+
+        </div>
+        <div class="setofmod">
+            <h1 class="author">其他作者</h1>
+            <ul class="main-mod-button">
+
+                <li class="mod-button">
+                    <div>
+                        <p class="main-title">
+                            1-X
+                        </p>
+                        <div class="button1">
+                            <a target="_blank" href="file/1-x.zip">下载</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer id="qq-kook-container" style="position: relative;">
+        </p>
+        <p>Version 1.0 最后一次更新于2024.9.17</p>
+    </footer>
+</body>
+
+</html>

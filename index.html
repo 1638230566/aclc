@@ -20,43 +20,7 @@
     <nav>
         <a href="../" target="_blank" class="title-herf">
             Adofai Cursed Levels Download</a>
-        <div class="search-place">
-            <form id="searchForm" action="/" method="GET">
-                <input name="q" type="text" autocomplete="off" placeholder="搜索关卡 Search the Level" id="search" value="">
-                <button type="submit" id="search-button">搜索</button>
-            </form>
-        </div>
     </nav>
-    <script>
-        document.getElementById('searchForm').addEventListener('submit', function (event) {
-            event.preventDefault();
-            var searchInput = document.getElementById('search');
-            if (searchInput.value.trim() === '') {
-                searchInput.value = "";
-            }
-            if (searchInput.value === '') {
-                $(".setofmod").slideDown(500);
-            } else {
-                $(".setofmod").each(function () {
-                    if ($(this).find(".author").text() != searchInput.value) {
-                        $(this).slideUp(500);
-                    } else {
-                        $(this).slideDown(500);
-                    }
-                })
-            }
-        });
-        document.addEventListener('DOMContentLoaded', () => {
-            const qqKookContainer = document.getElementById('qq-kook-container');
-            if (36 < 2) {
-                qqKookContainer.style.position = 'fixed';
-                qqKookContainer.style.width = '100%';
-                qqKookContainer.style.bottom = 0;
-            } else {
-                qqKookContainer.style.position = 'relative';
-            }
-        });
-    </script>
 
     <div style="padding-bottom: 3px;">
         <div class="setofmod">
